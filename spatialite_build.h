@@ -1,0 +1,13 @@
+#ifndef SPATIALITE_BUILD
+#define SPATIALITE_BUILD
+
+#define OMIT_GEOS
+#define OMIT_PROJ
+#define OMIT_FREEXL
+
+#define ENABLE_RTREE
+#define SQLITE_ENABLE_RTREE
+
+#define VERSION "3.0.1"
+
+#endif // SPATIALITE_BUILD
